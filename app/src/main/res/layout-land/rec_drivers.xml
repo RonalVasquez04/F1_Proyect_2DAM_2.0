@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cardviewDrivers"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="7dp"
+        android:layout_marginStart="5dp"
+        app:cardBackgroundColor="#17343A"
+        app:cardCornerRadius="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        >
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:id="@+id/textApellido"
+                android:layout_width="184dp"
+                android:layout_height="31dp"
+                android:layout_marginStart="80dp"
+                android:layout_marginTop="4dp"
+                android:fontFamily="@font/sigmar_one"
+                android:text="Apellido"
+                android:textColor="#F4E8E8"
+                android:textSize="20dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textNombre" />
+
+            <TextView
+                android:id="@+id/textNombre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="80dp"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/alfa_slab_one"
+                android:text="Nombre"
+                android:textColor="#F4E8E8"
+                android:textSize="13dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textEscuderia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="80dp"
+                android:text="Escuderia"
+                android:textColor="#F4E8E8"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textApellido" />
+
+            <ImageView
+                android:id="@+id/fondoDriver"
+                android:layout_width="203dp"
+                android:layout_height="130dp"
+                android:layout_marginStart="296dp"
+                app:layout_constraintStart_toEndOf="@+id/textApellido"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/flagf1" />
+
+            <ImageView
+                android:id="@+id/imagenDriver"
+                android:layout_width="87dp"
+                android:layout_height="96dp"
+                android:layout_marginStart="296dp"
+                android:layout_marginTop="1dp"
+                app:layout_constraintStart_toEndOf="@+id/textApellido"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/formula1logo" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </com.google.android.material.card.MaterialCardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="15dp">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="175dp"
+        android:layout_height="210dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textNombreCircuito"
+                android:layout_width="match_parent"
+                android:layout_height="24dp"
+                android:layout_marginTop="10dp"
+                android:text="Nombre Circuito"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="12dp"
+                android:textStyle="bold|italic" />
+
+            <ImageView
+                android:id="@+id/imagenCircuito"
+                android:layout_marginLeft="13dp"
+                android:layout_width="149dp"
+                android:layout_height="108dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/formula1logo" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="14dp"
+                    android:text="Nº de Vueltas"
+                    android:textColor="@color/black"
+                    android:textSize="11dp" />
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="48dp"
+                    android:layout_height="18dp"
+                    android:layout_marginStart="10dp"
+                    android:text="Distancia"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="11dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    android:id="@+id/textNvueltas"
+                    android:layout_width="66dp"
+                    android:layout_marginLeft="14dp"
+                    android:gravity="center"
+                    android:layout_height="28dp"
+                    android:textColor="@color/black"
+                    android:text="N Vueltas" />
+
+                <TextView
+                    android:id="@+id/textDistancia"
+                    android:layout_width="66dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_height="28dp"
+                    android:text="textDistancia"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+</LinearLayout>

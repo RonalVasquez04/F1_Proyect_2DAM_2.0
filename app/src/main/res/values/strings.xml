@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">F1</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="nameNews">NEWS</string>
+    <string name="nameDrivers">DRIVERS</string>
+    <string name="nameRacing">RACING</string>
+    <string name="nameCircuits">CIRCUITS</string>
+    <string name="navOpen">Open the navigation drawer</string>
+    <string name="navClose">Closing the navigation drawer</string>
+</resources>

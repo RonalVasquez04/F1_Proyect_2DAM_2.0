@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "200925886995",
+    "project_id": "proyectof1-3e0a9",
+    "storage_bucket": "proyectof1-3e0a9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:200925886995:android:d886490d9ed4a0eafc5de6",
+        "android_client_info": {
+          "package_name": "es.rfvl.f1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvf8t6jInmWxBMswO_U9fpJ5MOAPcB-4E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

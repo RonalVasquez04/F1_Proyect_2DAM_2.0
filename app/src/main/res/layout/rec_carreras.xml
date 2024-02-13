@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cardViewCarreras"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:layout_margin="7dp"
+        android:layout_marginStart="5dp"
+        app:cardBackgroundColor="#E6F2F4"
+        app:cardCornerRadius="15dp">
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:id="@+id/textRound"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="8dp"
+                android:text="Round #"
+                android:textColor="@color/Color_red" />
+
+            <TextView
+                android:id="@+id/textCiudad"
+                android:layout_width="367dp"
+                android:layout_height="34dp"
+                android:layout_marginStart="30dp"
+                android:text="Ciudad"
+                android:textColor="@color/black"
+                android:textSize="28dp"
+                android:textStyle="bold"
+                android:layout_marginTop="34dp" />
+
+            <TextView
+                android:id="@+id/textCarrera"
+                android:layout_width="268dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="30dp"
+                android:text="textoCarrera"
+                android:layout_marginTop="68dp" />
+
+        </FrameLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+
+</FrameLayout>

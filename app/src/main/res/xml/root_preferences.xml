@@ -1,0 +1,33 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<PreferenceCategory android:title="Chat">
+
+    <EditTextPreference android:title="User"
+        android:key="signature"
+        app:useSimpleSummaryProvider="true"
+        />
+    <SwitchPreferenceCompat
+        app:key="syncLogin"
+        app:title="Remenber login" />
+
+</PreferenceCategory>
+
+    <PreferenceCategory android:title="Caché">
+        <SwitchPreferenceCompat
+            app:key="sync"
+            app:title="Store caché" />
+
+    </PreferenceCategory>
+
+
+
+
+    <PreferenceCategory android:title="General">
+        <CheckBoxPreference
+            android:key="syncCheck"
+            android:title="Vibrate"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
