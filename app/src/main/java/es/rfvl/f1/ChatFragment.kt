@@ -35,7 +35,6 @@ class ChatFragment : Fragment() {
         binding = FragmentChatBinding.inflate(layoutInflater)
         val activity = requireActivity() as AppCompatActivity
 
-
         val view = inflater.inflate(R.layout.fragment_chat, container, false)
 
         binding.btnBackChat.setOnClickListener {

@@ -10,6 +10,13 @@
     <SwitchPreferenceCompat
         app:key="syncLogin"
         app:title="Remenber login" />
+    <ListPreference
+        android:key="color"
+        android:title="Choose a color"
+        android:summary="Select your preferred color"
+        android:entries="@array/color_options"
+        android:entryValues="@array/color_values"
+        android:defaultValue="0" />
 
 </PreferenceCategory>
 
